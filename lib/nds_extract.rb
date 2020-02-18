@@ -3,7 +3,7 @@ require 'directors_database'
 retuire 'pp'
 
 pretty_data = pp directors_database
-pretty_data
+p pretty_data
 
 def directors_totals(nds)
   # Remember, it's always OK to pretty print what you get *in* to make sure
