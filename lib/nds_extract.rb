@@ -1,9 +1,9 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
-retuire 'pp'
+require 'pp'
 
 pretty_data = pp directors_database
-p pretty_data
+
 
 def directors_totals(nds)
   # Remember, it's always OK to pretty print what you get *in* to make sure
